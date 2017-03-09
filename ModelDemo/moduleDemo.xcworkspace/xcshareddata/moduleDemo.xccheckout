@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>85B66ABB-4AD7-4BFF-A70D-6DC07B85D6DA</string>
+	<key>IDESourceControlProjectName</key>
+	<string>moduleDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5b8a0d4a-25d9-11e5-be45-dc281d223a69</key>
+		<string>http://10.8.1.218/svn/IOS_Dev</string>
+		<key>d84d6eae-0f12-11e5-a5c3-feeb37161a09</key>
+		<string>http://10.8.1.218/svn/Mobile_Dev</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>IOSModel/Code/ModelDemo/moduleDemo.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5b8a0d4a-25d9-11e5-be45-dc281d223a69</key>
+		<string>../../../..</string>
+		<key>d84d6eae-0f12-11e5-a5c3-feeb37161a09</key>
+		<string>../../../../../Mobile_Dev</string>
+	</dict>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5b8a0d4a-25d9-11e5-be45-dc281d223a69</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5b8a0d4a-25d9-11e5-be45-dc281d223a69</string>
+			<key>IDESourceControlWCCName</key>
+			<string>IOS_Dev</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>d84d6eae-0f12-11e5-a5c3-feeb37161a09</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Mobile_Dev</string>
+		</dict>
+	</array>
+</dict>
+</plist>
