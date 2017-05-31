@@ -38,7 +38,7 @@ typedef enum {
     ZBarNum
     
 }TestType;
-@interface ViewController ()
+@interface ViewController ()<ZBarDelegate>
 @property (weak, nonatomic) IBOutlet DrawLineBaseView *drawView;
 @property (weak, nonatomic) IBOutlet UITextView *outPutTextView;
 @property (weak, nonatomic) IBOutlet UIImageView *testImgView;
@@ -249,6 +249,7 @@ typedef enum {
         case ZBarNum:
         {
             ZBarViewController *zbVc=[[ZBarViewController alloc]initWithNibName:@"ZBarViewController" bundle:nil];
+            zbVc.delegate=self;
             [self presentViewController:zbVc animated:YES completion:^{
                 //
             }];
@@ -275,5 +276,9 @@ typedef enum {
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     [self didSelectRow:indexPath.row];
 }
+#pragma mark ZBarDelegate
 
+-(void)zbarResult:(NSString*)result{
+    outPutTextView.text=[NSString stringWithFormat:@"%@\n%@\n",outPutTextView.text,result];
+}
 @end
